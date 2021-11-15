@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#2462b8b2",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#919191",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#2462b8b2",
+    "statusBarItem.hoverBackground": "#2462b8b2",
+    "statusBar.foreground": "#15202b"
+  },
+  "files.exclude": {
+    "**/*.js": { "when": "$(basename).ts" },
+    "**/**.js": { "when": "$(basename).tsx" }
+  },
+  "cSpell.words": []
+}
