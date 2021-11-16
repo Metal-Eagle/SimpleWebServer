@@ -1,10 +1,14 @@
 import express from "express";
 import fs from "fs";
-const PORT = 80;
+import dotenv from "dotenv";
+
+dotenv.config();
+
+const PORT = process.env.PORT || 80;
 
 const app = express();
 
-const location = process.cwd() + "\\src\\www";
+const location = process.cwd() + "\\www";
 
 fs.mkdir(location, (err) => {
   if (err) {
